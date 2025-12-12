@@ -1,4 +1,4 @@
-# Star Rating Component
+# Feedback Rating
 
 A interactive star rating component built with HTML, CSS, and JavaScript.
 
