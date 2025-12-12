@@ -21,6 +21,6 @@ A interactive star rating component built with HTML, CSS, and JavaScript.
 
 ## Files
 
-- `index.htm`: Main HTML file
+- `index.html`: Main HTML file
 - `style.css`: Styling
 - `script.js`: JavaScript functionality
