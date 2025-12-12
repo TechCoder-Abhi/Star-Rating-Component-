@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Feedback Rating Component</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="card" aria-labelledby="rating-title">
+      <h1 id="rating-title">Rate Your Experience</h1>
+
+      <div class="stars-wrapper">
+        <div id="star-container" role="radiogroup" aria-label="Star rating"></div>
+      </div>
+
+      <div class="meta">
+        <p>Selected Rating: <strong id="rating-value">0</strong></p>
+        <button id="reset-btn" class="btn">Reset</button>
+      </div>
+
+      <div id="rating-live" aria-live="polite" class="sr-only">No rating</div>
+      <p class="hint">Tip: Hover to preview, click to set. Click the same star to clear.</p>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
